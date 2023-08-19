@@ -12,4 +12,6 @@ sudo chmod +x launchhelper.sh
 14)Click Show Advenced Options
 15)Add "launchhelper.sh" location to "Pre-launch script" in System Options
 16)Keep "Wait for pre-launch script completion" and "Enable Feral Gamemode" Off in System Options
-17)Launch the game...
+17) sudo sh -c 'sysctl -w abi.vsyscall32=0'
+18) reboot
+19) Launch the game...
