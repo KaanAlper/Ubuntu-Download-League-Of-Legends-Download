@@ -1,0 +1,21 @@
+1)sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+2)sudo apt update
+3)sudo apt install --install-recommends winehq-staging
+4)sudo add-apt-repository ppa:lutris-team/lutris
+5)sudo apt update
+6)sudo apt install lutris
+7)https://lutris.net/games/league-of-legends/ İnstall Standart Version
+8)https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.na.exe download
+9)Lutris COnfigure League Of Legends game options Add Arguments
+launch-product=league_of_legends --launch-patchline=live
+10)Change Executable to
+/home/%username%/.wine/drive_c/Riot Games/Riot Client/RiotClientServices.exe
+11)Create Folder in Desktop or somewhere and drop "syscall_check.sh" and "launchhelper.sh" here
+12)Open Cmd in that folder and write
+sudo chmod +x syscall_check.sh
+sudo chmod +x launchhelper.sh
+13)Go to the Game Configure and System Options
+14)Click Show Advenced Options
+15)Add "launchhelper.sh" location to "Pre-launch script" in System Options
+16)Keep "Wait for pre-launch script completion" and "Enable Feral Gamemode" Off in System Options
+17)Launch the game...
